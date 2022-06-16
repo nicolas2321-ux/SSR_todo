@@ -48,7 +48,7 @@ function Index(props) {
                 </div>
                 ) : (
                   <ul className="list-group list-group-flush">
-                    {dataTodos.todoes.map(todo => (
+                   
                       <li key={todo.id} className="list-group-item">
                         <div className="row">
                           <div className="col-8">
@@ -91,7 +91,7 @@ function Index(props) {
                           </div>
                         </div>
                       </li>
-                    ))}
+                    
                   </ul>
                 )}
               </div>
